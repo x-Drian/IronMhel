@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>x_Drian</title>
+   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { 
+    height: 100%; 
+     }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url(pinktulipbluebg.jpg) center/cover no-repeat;
+      filter: blur(6px) brightness(0.8);
+      z-index: -1;
+    }
+    header {
+      height: 70px;
+      flex: 0 0 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      background: rgba(34,34,34,0.9);
+      color: #fff;
+    }
+    .logo { 
+    display:flex; 
+    align-items:center; 
+    gap:10px; 
+    }
+    .logo img { 
+    width:40px; 
+    height:40px; 
+    object-fit:cover; 
+    border-radius:50px; 
+    }
+    .center-quote { 
+    flex:1; 
+    text-align:center; 
+    font-style:italic; 
+    font-size:1.05rem; 
+    }
+    nav a { 
+    color:#fff; 
+    text-decoration:none; 
+    margin-left:18px; 
+    font-weight:600; 
+    }
+    footer {
+      height: 48px;
+      flex: 0 0 48px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: rgba(34,34,34,0.9);
+      color:#fff;
+      font-size:0.95rem;
+     }
+    main {
+      height: calc(100vh - 70px - 48px);
+      flex: 1 1 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 0;
+      width: 100%;
+      min-width: 0;
+      min-height: 0;
+    }
+
+    .grid-cell {
+      border: 2px solid #37b6dd; /* add border to every grid */
+      overflow: hidden;
+      min-width: 0;
+      min-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+    .text-only {
+      padding: 28px;
+      text-align: center;
+      font-size: 1.05rem;
+      line-height: 1.4;
+    }
+    .half-split { 
+      width:100%; 
+      height:100%; 
+      display:flex; 
+    }
+    .half-text {
+      flex: 1 1 50%;
+      padding: 22px;
+      display:flex;
+      align-items:center;
+      justify-content:flex-start;
+      text-align:left;
+    }
+    .half-img {
+      flex: 1 1 50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+      min-width: 0;
+      min-height: 0;
+    }
+    .half-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+   <header>
+     <div class="logo">
+       <img src="xlogo.png" alt="logo">
+      <strong>x_Drian</strong>
+    </div>
+    <div class="center-quote">"Open your mind before your mouth" -Aristophanes</div>
+    <nav>
+      <a href="adiwebie2.html">Home</a>
+      <a href="secondu.html">About</a>
+      <a href="">Projects</a>
+      <a href="">Contact</a>
+    </nav>
+  </header>
+     <main>
+        <section class="grid-cell text-only">
+         <div>
+           <h2>Welcome</h2>
+            <p>
+          On this page, I want to share more about myself and the journey that has shaped who I am today. Life is a collection of experiences, passions, and moments of growth, and I believe that opening up about my story can help you understand me better. Here, you’ll discover the things that I truly love to do—the activities that bring me joy, excitement, and fulfillment. Some of these passions are things I enjoy sharing with others, while others are personal interests that I usually keep to myself. By talking about both, I hope to give you a more complete picture of my personality and what makes me unique.
+         This space is not just about listing hobbies or achievements; it’s about expressing the deeper reasons behind what I do and why I care about them. Whether it’s something creative, adventurous, or simply a quiet habit that helps me reflect, every detail plays a role in defining who I am. My goal is for you to walk away from this page with a clearer sense of my identity, my values, and the little things that make my journey meaningful.
+        </p>
+      </div>
+    </section>
+        <section class="grid-cell">
+           <div class="half-split">
+           <div class="half-text">
+           <div>
+            <h3>By December 2024, I was able to apply my cooking skills once again through our Home Economics subject. I also made use of the knowledge I gained back in senior high school from Food and Beverage Services. During this time, I prepared chicken with lemon sauce, which was actually my first attempt at cooking the dish. Surprisingly, it turned out really well I was able to perfect it. Because of this, I received a high score from both our teacher and our practice teacher, which made me proud.</h3>
+          </div>
+        </div>
+        <div class="half-img">
+          <img src="H.E food.jpg" alt="My Picture">
+        </div>
+      </div>
+    </section>
+         <section class="grid-cell">
+             <div class="half-split">
+            <div class="half-text">
+          <h3>Whenever I find time to ride my motorcycle, I love going on trips to another city with my friends. The ride itself feels refreshing as we take it slow, enjoy the breeze, and watch the streets come alive. I especially love seeing the city lights, which make the journey more beautiful and meaningful. While traveling, I am reminded of God’s wonderful creations. These rides are not just about reaching a destination but also about friendship, peace, and appreciating life’s simple joys.</h3>
+        </div>
+        <div class="half-img">
+          <img src="RIDESAFE.jpg" alt="About Photo">
+        </div>
+      </div>
+    </section>
+           <section class="grid-cell">
+          <div class="half-split">
+        <div class="half-text">
+          <h3>This photo was taken after my very first debate on December 2024, an experience I will always remember. Before it began, I was extremely nervous because I had no idea how to debate. Since it was a group debate, I imagined it being one against five, which made me even more anxious. An hour before, I reviewed our points, but my heartbeat grew faster as the time came. I only spoke a little, yet I gained confidence and motivation to improve.</h3>
+        </div>
+        <div class="half-img">
+          <img src="debate.jpg" alt="Journey Photo 1">
+        </div>
+      </div>
+    </section>
+           <section class="grid-cell">
+          <div class="half-split">
+        <div class="half-text">
+          <h3>Every Monday and on weekends, I make it a habit to go to the gym with my school friends. Working out together keeps me motivated and makes the experience more enjoyable. For me, going to the gym is not only about exercise but also about maintaining a healthy body and lifestyle. I want to stay active, disciplined, and strong, and at the same time, I look forward to seeing my body improve and develop a better physique through consistency.</h3>
+        </div>
+        <div class="half-img">
+          <img src="ginbadi.png" alt="Journey Photo 2">
+        </div>
+      </div>
+    </section>
+             <section class="grid-cell">
+           <div class="half-split">
+         <div class="half-text">
+          <h3>When we are given a long rest week, such as a one-week mental health break from school, I usually spend time with my friends visiting museums. We enjoy exploring the exhibits, learning more about history, and gaining a deeper understanding of how our country was built and shaped through the years. These visits are not only educational but also inspiring, as they allow us to connect with the past. Personally, I also love painting, so seeing artworks in museums motivates me to improve my own creativity.</h3>
+        </div>
+        <div class="half-img">
+          <img src="aport.jpg" alt="Journey Photo 3">
+        </div>
+          </div>
+        </section>
+       </main>
+       <footer>© 2025 x_Drian | All Rights Reserved</footer>
+ </body>
+ </html>
